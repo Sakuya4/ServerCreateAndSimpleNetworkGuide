@@ -13,7 +13,7 @@
 ### 1. OSI七層模型
 也許從這邊說明會很複雜，筆者相信，在大學網路概論、計算機網路課程都有學過這個模型，以下用MarkDown語法簡單畫了一個模型圖：
 
-:::info
+:::
 A（application layer）：DHCP、DNS、FTP、Gopher、HTTP、SPDY、HTTP/2、IMAP4、IRC、NNTP、XMPP、POP3、SIP、SMTP、SNMP、SSH、TELNET、RPC、RTCP、RTP、RTSP、SDP、SOAP、GTP、STUN、NTP、SSDP
 
 -----
@@ -40,7 +40,7 @@ D（data link layer）：Wi-Fi（IEEE 802.11）、ARP、WiMAX（IEEE 802.16）�
 
 P  (physical layer)：乙太網路、數據機、電力線通訊、同步光纖網路、G.709、光導纖維、同軸電纜、雙絞線。
 :::
-
+------
 不用去硬背，先簡單看過，了解一下大概哪一層在做什麼。未來在Debug的時候腦海中可以套一下OSI七層，或者你自己有一套你自己的模型，以我為例，我腦袋在Debug就直接建立「簡單三層」，由上至下，最上層應用層、中間網路層、最底下實體層。假設虛擬機或主機網路不通，你可以從這三層架構下去排查問題。
 
 ### 2. IPv4網路
